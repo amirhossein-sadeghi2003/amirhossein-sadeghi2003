@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/intelligent-physical-systems-banner.gif" alt="Intelligent Physical Systems animated aerospace banner" width="100%">
+</p>
+
 <div align="center">
 
 # Amirhossein Sadeghi
