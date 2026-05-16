@@ -6,17 +6,17 @@
 
 # Amirhossein Sadeghi
 
-### Intelligent Physical Systems · Control · Sensing · Embedded AI · State Estimation
+### Embedded Sensing · State Estimation · Control for Intelligent Physical Systems
 
-Building a portfolio at the intersection of computation and real-world dynamic systems.
+Building hands-on systems where sensors, embedded software, estimation, and data-driven methods interact with real-world physical behavior.
 
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Intelligent%20Physical%20Systems-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Control-Systems-2E8B57?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Intelligent-Physical%20Systems-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Embedded-Sensing-2E8B57?style=for-the-badge" />
   <img src="https://img.shields.io/badge/State-Estimation-6A5ACD?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Embedded-AI-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Control-Systems-FF6F00?style=for-the-badge" />
 </p>
 
 <p align="center">
