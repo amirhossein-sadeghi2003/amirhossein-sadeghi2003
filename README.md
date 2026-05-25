@@ -6,9 +6,9 @@
 
 # Amirhossein Sadeghi
 
-### Embedded Sensing · State Estimation · Control for Intelligent Physical Systems
+### Embedded Sensing · State Estimation · Planning · Control for Intelligent Physical Systems
 
-Building hands-on systems where sensors, embedded software, estimation, control, and data-driven methods interact with real-world physical behavior.
+Building hands-on systems where sensors, embedded software, estimation, planning, control, and data-driven methods interact with real-world physical behavior.
 
 </div>
 
@@ -16,6 +16,7 @@ Building hands-on systems where sensors, embedded software, estimation, control,
   <img src="https://img.shields.io/badge/Intelligent-Physical%20Systems-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Embedded-Sensing-2E8B57?style=for-the-badge" />
   <img src="https://img.shields.io/badge/State-Estimation-6A5ACD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Planning-8E44AD?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Control-Systems-FF6F00?style=for-the-badge" />
 </p>
 
@@ -32,7 +33,7 @@ Building hands-on systems where sensors, embedded software, estimation, control,
 
 I am a Computer Engineering student at Isfahan University of Technology, building a project portfolio around **Intelligent Physical Systems**.
 
-My main interest is not pure software alone, but systems where computation interacts with physical behavior through sensors, models, estimation, and feedback.
+My main interest is not pure software alone, but systems where computation interacts with physical behavior through sensors, models, estimation, planning, and feedback.
 
 I am especially interested in:
 
@@ -41,6 +42,7 @@ I am especially interested in:
 - embedded systems and IoT
 - state estimation and filtering
 - robotics and cyber-physical systems
+- path planning and search algorithms
 - machine learning for monitoring, diagnosis, inspection, and estimation
 
 My long-term direction is inspired by aerospace and autonomous systems: software that helps machines sense, estimate, decide, and act in the physical world.
@@ -49,38 +51,41 @@ My long-term direction is inspired by aerospace and autonomous systems: software
 
 My current portfolio follows this path:
 
-**Dynamics → Control → Sensor Data → Filtering / Estimation → Embedded Intelligence → Intelligent Physical Systems**
+**Sensing → Estimation → Planning → Control → Embedded Intelligence → Intelligent Physical Systems**
 
-The goal is to build engineering evidence, not only code. I focus on projects that include modeling, simulation, noisy measurements, hardware bring-up, sensor integration, evaluation plots, and documented engineering decisions.
+The goal is to build engineering evidence, not only code. I focus on projects that include modeling, simulation, noisy measurements, hardware bring-up, sensor integration, evaluation plots, visual demonstrations, and documented engineering decisions.
 
 ## Featured Projects
 
 | Project | Focus | What it demonstrates |
 |---|---|---|
 | [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation) | Embedded sensing / attitude estimation | ESP32 + MPU6050 roll/pitch estimation, complementary filter, high-rate logging, OLED display, LED status feedback, hardware demo |
+| [Ball and Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control) | Real embedded control | ESP32 + HC-SR04 + MG946R servo, open-loop testing, P-control Prototype V1, hardware photos, demo video, engineering documentation |
+| [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer) | Robotics planning / search visualization | BFS, Dijkstra, Weighted Dijkstra, Greedy Best-First, A*, Weighted A*, animated GIFs, weighted-cost comparison table |
 | [TinyML Flight Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | Embedded AI / TinyML | ESP32 inference, real sensor data, OLED/NeoPixel/buzzer outputs, hardware-oriented monitoring |
 | [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation) | Kalman filtering / sensor fusion | GPS-like measurements, IMU-like acceleration, dropout handling, trajectory estimation |
-| [Ball and Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control) | Real hardware control | HC-SR04 bring-up, servo bring-up, sensor-actuator integration, power stability documentation, integration logging and plots |
-| [Ball and Beam Control Simulation](https://github.com/amirhossein-sadeghi2003/ball-and-beam-control-simulation) | Feedback control simulation | PID control, P/PD/PID comparison, PD tuning, disturbance response |
 | [Time-Series Motor Fault Detection](https://github.com/amirhossein-sadeghi2003/time-series-motor-fault-detection) | Condition monitoring | Real CWRU vibration data, feature extraction, ML model comparison, noise robustness |
 | [Industrial Surface Defect Classification](https://github.com/amirhossein-sadeghi2003/industrial-surface-defect-classification) | Visual inspection | CNN baseline, ResNet18 transfer learning, prediction examples, Grad-CAM explanations |
 
 ## Project Map
 
-    Physical Dynamics and Control
-    ├── Mass-Spring-Damper Simulation
-    ├── DC Motor Simulation
-    ├── Ball and Beam Control Simulation
-    └── Ball and Beam Hardware Control
-
-    State Estimation and Filtering
-    ├── Kalman Filter DC Motor
-    ├── Sensor Fusion State Estimation
-    └── Embedded IMU Attitude Estimation
-
-    Embedded / IoT / Cyber-Physical Systems
+    Sensing and Embedded Estimation
+    ├── Embedded IMU Attitude Estimation
     ├── TinyML Flight Condition Monitor
     └── IoT Digital Twin ML Pipeline
+
+    Planning and Decision-Making
+    └── Robot Path Planning Visualizer
+
+    Physical Dynamics and Control
+    ├── Ball and Beam Hardware Control
+    ├── Ball and Beam Control Simulation
+    ├── DC Motor Simulation
+    └── Mass-Spring-Damper Simulation
+
+    State Estimation and Filtering
+    ├── Sensor Fusion State Estimation
+    └── Kalman Filter DC Motor
 
     Applied ML for Physical Systems
     ├── Time-Series Motor Fault Detection
@@ -92,17 +97,37 @@ The goal is to build engineering evidence, not only code. I focus on projects th
 
 ## Current Hardware Direction
 
-I am currently moving from simulation-only projects toward real sensing and feedback-control hardware.
+I am moving from simulation-only projects toward real sensing, embedded estimation, and feedback-control hardware.
 
 Recent hardware milestones include:
 
 - ESP32 + MPU6050 attitude estimation with OLED and LED feedback
 - ESP32 + HC-SR04 distance sensing and logging
 - MG946R servo bring-up with separate 5V power supply
-- Servo and HC-SR04 integration testing for a ball-and-beam control setup
-- Engineering documentation for wiring, power stability, sensor behavior, and integration steps
+- Servo and HC-SR04 integration testing
+- Mechanical ball-and-beam Prototype V1
+- Initial P-control test on real hardware
+- Engineering documentation for wiring, power stability, sensor behavior, mechanical limitations, and prototype results
 
-The next goal is to move from sensor-actuator integration toward a mechanical ball-and-beam prototype and closed-loop position control.
+The current ball-and-beam prototype is not a polished final controller. It is a working Prototype V1 that demonstrates real embedded sensing, actuation, tuning, and physical debugging.
+
+## Current Robotics / Planning Direction
+
+I am also building visual planning tools to show how different algorithms explore a grid and select paths.
+
+The current path-planning visualizer includes:
+
+- BFS
+- Dijkstra
+- Weighted Dijkstra
+- Greedy Best-First Search
+- A*
+- Weighted A*
+- static visualizations
+- animated GIFs
+- weighted path-cost comparison metrics
+
+This supports the planning side of the same intelligent physical systems narrative: a robot needs estimation to understand where it is, planning to decide where to go, and control to act in the physical world.
 
 ## Supporting Projects
 
@@ -111,6 +136,7 @@ The next goal is to move from sensor-actuator integration toward a mechanical ba
 - [Kalman Filter DC Motor](https://github.com/amirhossein-sadeghi2003/kalman-filter-dc-motor)
 - [DC Motor Simulation](https://github.com/amirhossein-sadeghi2003/dc-motor-simulation)
 - [Mass-Spring-Damper Simulation](https://github.com/amirhossein-sadeghi2003/mass-spring-damper-simulation)
+- [Ball and Beam Control Simulation](https://github.com/amirhossein-sadeghi2003/ball-and-beam-control-simulation)
 - [Dynamic System Classification](https://github.com/amirhossein-sadeghi2003/dynamic-system-classification)
 
 ### IoT and System Integration
@@ -128,6 +154,7 @@ The next goal is to move from sensor-actuator integration toward a mechanical ba
 - scikit-learn, PyTorch
 - signal processing and feature extraction
 - Kalman filtering and state estimation
+- path planning and search algorithms
 - simulation and control-oriented modeling
 - embedded sensing and hardware bring-up
 - IoT communication and MQTT
@@ -142,14 +169,15 @@ I am currently developing my portfolio toward graduate studies in areas such as:
 - cyber-physical systems
 - embedded intelligence
 - sensing and state estimation
+- path planning and optimization
 - applied machine learning for physical systems
 
-My long-term goal is to work on intelligent systems that understand, monitor, estimate, and control real-world physical behavior.
+My long-term goal is to work on intelligent systems that understand, monitor, estimate, plan, and control real-world physical behavior.
 
 ---
 
 <div align="center">
 
-**Engineering software for systems that sense, estimate, and act.**
+**Engineering software for systems that sense, estimate, plan, and act.**
 
 </div>
