@@ -61,11 +61,26 @@ The goal is to build engineering evidence, not only code. I focus on projects th
 |---|---|---|
 | [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation) | Embedded sensing / attitude estimation | ESP32 + MPU6050 roll/pitch estimation, complementary filter, high-rate logging, OLED display, LED status feedback, hardware demo |
 | [Ball and Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control) | Real embedded control | ESP32 + HC-SR04 + MG946R servo, open-loop testing, P-control Prototype V1, hardware photos, demo video, engineering documentation |
+| [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning) | Optimization / control tuning | Genetic Algorithm PID tuning, ball-and-beam simulation, population evolution preview, baseline vs evolved controller animation |
 | [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer) | Robotics planning / search visualization | BFS, Dijkstra, Weighted Dijkstra, Greedy Best-First, A*, Weighted A*, animated GIFs, weighted-cost comparison table |
 | [TinyML Flight Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | Embedded AI / TinyML | ESP32 inference, real sensor data, OLED/NeoPixel/buzzer outputs, hardware-oriented monitoring |
 | [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation) | Kalman filtering / sensor fusion | GPS-like measurements, IMU-like acceleration, dropout handling, trajectory estimation |
 | [Time-Series Motor Fault Detection](https://github.com/amirhossein-sadeghi2003/time-series-motor-fault-detection) | Condition monitoring | Real CWRU vibration data, feature extraction, ML model comparison, noise robustness |
 | [Industrial Surface Defect Classification](https://github.com/amirhossein-sadeghi2003/industrial-surface-defect-classification) | Visual inspection | CNN baseline, ResNet18 transfer learning, prediction examples, Grad-CAM explanations |
+
+## Visual Project Demos
+
+Recent project demos focus on making estimation, planning, control, optimization, and embedded intelligence easier to inspect visually.
+
+| Project | Visual demo |
+|---|---|
+| [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning) | Ball-and-beam controller animations, population preview, and manual PID vs GA-tuned PID comparison |
+| [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer) | Search-process GIFs for BFS, Dijkstra, Greedy Best-First, A*, and weighted variants |
+| [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation) | Live Kalman trajectory tracking animation with noisy GPS-like measurements and dropout handling |
+| [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation) | 3D roll/pitch body animation from complementary-filter attitude estimates |
+| [TinyML Flight Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | Live embedded-style condition monitor dashboard from real ESP32 sensor data |
+| [Time-Series Motor Fault Detection](https://github.com/amirhossein-sadeghi2003/time-series-motor-fault-detection) | Motor fault diagnosis dashboard with model comparison, confusion matrix, feature importance, and noise robustness |
+
 
 ## Project Map
 
@@ -77,8 +92,9 @@ The goal is to build engineering evidence, not only code. I focus on projects th
     Planning and Decision-Making
     └── Robot Path Planning Visualizer
 
-    Physical Dynamics and Control
+    Physical Dynamics, Control, and Optimization
     ├── Ball and Beam Hardware Control
+    ├── Evolutionary Control Tuning
     ├── Ball and Beam Control Simulation
     ├── DC Motor Simulation
     └── Mass-Spring-Damper Simulation
