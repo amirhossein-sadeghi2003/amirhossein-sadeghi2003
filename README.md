@@ -52,7 +52,7 @@ My long-term direction is close to robotics, autonomous systems, cyber-physical 
 The main theme of my portfolio is:
 
 ```text
-Sensing → Estimation → Planning → Control → Embedded Intelligence → Secure Monitoring → Secure Monitoring
+Sensing → Estimation → Planning → Control → Embedded Intelligence → Secure Monitoring
 ```
 
 I try to build projects that include more than source code: simulations, hardware tests, sensor data, plots, animations, model evaluation, engineering limitations, and reproducible results.
