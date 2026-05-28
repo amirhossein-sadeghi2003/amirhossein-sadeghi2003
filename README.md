@@ -41,6 +41,7 @@ My work focuses on systems that combine:
 - planning and search algorithms
 - feedback control and optimization
 - applied machine learning for monitoring, diagnosis, and inspection
+- secure IoT and cyber-physical anomaly detection
 
 My long-term direction is close to robotics, autonomous systems, cyber-physical systems, and aerospace-inspired engineering: software that helps machines sense, estimate, decide, and act in the physical world.
 
@@ -51,7 +52,7 @@ My long-term direction is close to robotics, autonomous systems, cyber-physical 
 The main theme of my portfolio is:
 
 ```text
-Sensing → Estimation → Planning → Control → Embedded Intelligence
+Sensing → Estimation → Planning → Control → Embedded Intelligence → Secure Monitoring → Secure Monitoring
 ```
 
 I try to build projects that include more than source code: simulations, hardware tests, sensor data, plots, animations, model evaluation, engineering limitations, and reproducible results.
@@ -90,6 +91,10 @@ I try to build projects that include more than source code: simulations, hardwar
 
 - [IoT Digital Twin ML Pipeline](https://github.com/amirhossein-sadeghi2003/IoT-DigitalTwin-ML-Pipeline)
 
+### Security for IoT and Cyber-Physical Systems
+
+- [Secure IoT Sensor Anomaly Detection](https://github.com/amirhossein-sadeghi2003/secure-iot-sensor-anomaly-detection)
+
 ### Additional CS / ML Coursework
 
 - [Graph Mining Node Classification](https://github.com/amirhossein-sadeghi2003/graph-mining-node-classification)
@@ -121,6 +126,9 @@ Applied ML for Physical Systems
 ├── Time-Series Motor Fault Detection
 ├── Industrial Surface Defect Classification
 └── Dynamic System Classification
+
+Security for IoT and Cyber-Physical Systems
+└── Secure IoT Sensor Anomaly Detection
 ```
 
 ---
@@ -137,6 +145,7 @@ Applied ML for Physical Systems
 - feedback control and optimization
 - signal processing and feature extraction
 - IoT communication and MQTT
+- IoT security and anomaly detection
 - computer vision for visual inspection
 
 ---
@@ -151,6 +160,7 @@ I am currently strengthening my portfolio toward graduate studies in:
 - embedded intelligence
 - sensing and state estimation
 - applied machine learning for physical systems
+- secure IoT and cyber-physical systems
 
 ---
 
