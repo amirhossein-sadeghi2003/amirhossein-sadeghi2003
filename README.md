@@ -63,12 +63,12 @@ I try to build projects that include more than source code: simulations, hardwar
 
 | Project | Area | What it demonstrates |
 |---|---|---|
+| [IoT Digital Twin ML Pipeline](https://github.com/amirhossein-sadeghi2003/IoT-DigitalTwin-ML-Pipeline) | IoT, embedded sensing, ML | ESP32 sensor telemetry, Node-RED dashboard, MQTT pipeline, ML-based monitoring, digital-twin style system integration |
+| [Secure IoT Sensor Anomaly Detection](https://github.com/amirhossein-sadeghi2003/secure-iot-sensor-anomaly-detection) | IoT security, anomaly detection | Real IoT telemetry data, simulated spoofing attacks, rule-based detection, ML detection, temporal features, metrics, visual results |
 | [Ball and Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control) | Embedded control | ESP32, HC-SR04 distance sensing, MG946R servo actuation, open-loop tests, P-control Prototype V1, hardware debugging, demo video |
 | [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation) | Embedded estimation | ESP32 + MPU6050 roll/pitch estimation, complementary filter, OLED display, LED feedback, attitude animation |
-| [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation) | Kalman filtering | 2D trajectory estimation with noisy GPS-like measurements, IMU-like acceleration, dropout handling, tracking animation |
-| [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning) | Optimization and control | Genetic Algorithm PID tuning for a ball-and-beam simulation, fitness evolution, baseline vs evolved controller comparison |
-| [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer) | Robotics planning | BFS, Dijkstra, Greedy Best-First, A*, Weighted A*, animated search visualizations, weighted-cost comparison |
-| [TinyML Flight Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | Embedded AI | ESP32-based monitoring, real sensor data, TinyML-style inference, OLED/NeoPixel/buzzer feedback, live monitor dashboard |
+| [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation) | State estimation | 2D trajectory estimation with noisy GPS-like measurements, IMU-like acceleration, dropout handling, tracking animation |
+| [TinyML Embedded Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | Embedded AI | ESP32-based monitoring, real sensor data, TinyML-style inference, OLED/NeoPixel/buzzer feedback, live monitor dashboard |
 
 ---
 
@@ -86,6 +86,8 @@ I try to build projects that include more than source code: simulations, hardwar
 
 - [Time-Series Motor Fault Detection](https://github.com/amirhossein-sadeghi2003/time-series-motor-fault-detection)
 - [Industrial Surface Defect Classification](https://github.com/amirhossein-sadeghi2003/industrial-surface-defect-classification)
+- [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer)
+- [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning)
 
 ### IoT and System Integration
 
@@ -106,7 +108,7 @@ I try to build projects that include more than source code: simulations, hardwar
 ```text
 Sensing and Embedded Estimation
 ├── Embedded IMU Attitude Estimation
-├── TinyML Flight Condition Monitor
+├── TinyML Embedded Condition Monitor
 └── IoT Digital Twin ML Pipeline
 
 Planning and Decision-Making
