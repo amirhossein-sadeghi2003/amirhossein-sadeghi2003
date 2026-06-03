@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/intelligent-physical-systems-banner-v2.gif" alt="Intelligent Physical Systems animated aerospace banner" width="100%">
+  <img src="assets/intelligent-physical-systems-banner-v2.gif" alt="Intelligent Physical Systems animated banner" width="100%">
 </p>
 
 <div align="center">
@@ -43,7 +43,7 @@ My work focuses on systems that combine:
 - applied machine learning for monitoring, diagnosis, and inspection
 - secure IoT and cyber-physical anomaly detection
 
-My long-term direction is close to robotics, autonomous systems, cyber-physical systems, and aerospace-inspired engineering: software that helps machines sense, estimate, decide, and act in the physical world.
+My long-term direction is close to robotics, autonomous systems, and cyber-physical systems: software that helps machines sense, estimate, decide, and act in the physical world.
 
 ---
 
@@ -88,6 +88,7 @@ I try to build projects that include more than source code: simulations, hardwar
 - [Industrial Surface Defect Classification](https://github.com/amirhossein-sadeghi2003/industrial-surface-defect-classification)
 - [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer)
 - [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning)
+- [Physics-Guided Battery Health Estimation](https://github.com/amirhossein-sadeghi2003/physics-guided-battery-health-estimation)
 
 ### IoT and System Integration
 
