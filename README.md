@@ -68,6 +68,7 @@ I try to build projects that include more than source code: simulations, hardwar
 | [Ball and Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control) | Embedded control | ESP32, HC-SR04 distance sensing, MG946R servo actuation, open-loop tests, P-control Prototype V1, hardware debugging, demo video |
 | [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation) | Embedded estimation | ESP32 + MPU6050 roll/pitch estimation, complementary filter, OLED display, LED feedback, attitude animation |
 | [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation) | State estimation | 2D trajectory estimation with noisy GPS-like measurements, IMU-like acceleration, dropout handling, tracking animation |
+| [Adaptive Mobile Navigation Fusion](https://github.com/amirhossein-sadeghi2003/adaptive-mobile-navigation-fusion) | State estimation, navigation | Real phone-collected GPS/IMU walks, 2D Kalman baseline, GPS dropout and jump handling with innovation gating, IMU-heading dead reckoning that holds heading through GPS outages |
 | [TinyML Embedded Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | Embedded AI | ESP32-based monitoring, real sensor data, TinyML-style inference, OLED/NeoPixel/buzzer feedback, live monitor dashboard |
 
 ---
@@ -123,6 +124,7 @@ Dynamics, Control, and Optimization
 
 State Estimation and Filtering
 ├── Sensor Fusion State Estimation
+├── Adaptive Mobile Navigation Fusion
 └── Kalman Filter DC Motor
 
 Applied ML for Physical Systems
