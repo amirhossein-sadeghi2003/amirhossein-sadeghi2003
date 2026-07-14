@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/networked-embedded-iot-banner.gif"
+       alt="Networked Embedded and IoT Systems animated banner"
+       width="100%">
+</p>
+
 <div align="center">
 
 # Amirhossein Sadeghi
