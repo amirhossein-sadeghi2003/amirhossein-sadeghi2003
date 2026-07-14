@@ -1,23 +1,19 @@
-<p align="center">
-  <img src="assets/intelligent-physical-systems-banner-v2.gif" alt="Intelligent Physical Systems animated banner" width="100%">
-</p>
-
 <div align="center">
 
 # Amirhossein Sadeghi
 
-### Embedded Sensing · State Estimation · Planning · Control for Intelligent Physical Systems
+### Embedded Systems · IoT · Computer Networks · Real-Time Monitoring
 
-Computer Engineering student building hands-on projects where software interacts with physical systems through sensors, models, estimation, planning, control, and applied machine learning.
+Computer Engineering student working on networked devices, sensor data, telemetry pipelines, reliable monitoring, and applied machine learning.
 
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Intelligent-Physical%20Systems-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Embedded-Sensing-2E8B57?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/State-Estimation-6A5ACD?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Planning-8E44AD?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Control-Systems-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Embedded-Systems-2E8B57?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/IoT%20%26-MQTT-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Computer-Networks-6A5ACD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Monitoring%20%26-Reliability-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Applied-AI%2FML-8E44AD?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -25,152 +21,109 @@ Computer Engineering student building hands-on projects where software interacts
   <img src="https://img.shields.io/badge/C%2FC++-00599C?style=flat&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP32-000000?style=flat&logo=espressif&logoColor=white" />
   <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white" />
 </p>
 
 ---
 
 ## About
 
-I am a Computer Engineering student at Isfahan University of Technology, developing a project portfolio around **intelligent physical systems**.
+I am a Computer Engineering student at Isfahan University of Technology.
 
-My work focuses on systems that combine:
+My current focus is on systems that connect hardware to software: acquiring data from sensors, transferring it through networks, processing time-sensitive telemetry, and monitoring whether devices and services are operating reliably.
 
-- sensing and embedded software
-- dynamic-system modeling
-- state estimation and filtering
-- planning and search algorithms
-- feedback control and optimization
-- applied machine learning for monitoring, diagnosis, and inspection
-- secure IoT and cyber-physical anomaly detection
+I use applied AI and machine learning where they provide practical value, particularly for anomaly detection, condition monitoring, sensor-data analysis, fault classification, and embedded inference.
 
-My long-term direction is close to robotics, autonomous systems, and cyber-physical systems: software that helps machines sense, estimate, decide, and act in the physical world.
+My portfolio also includes estimation and control projects. I keep them as supporting experience with signals and physical systems, while my main direction is now embedded hardware, IoT, computer networks, real-time data, and monitoring.
 
 ---
 
 ## Portfolio Direction
 
-The main theme of my portfolio is:
-
 ```text
-Sensing → Estimation → Planning → Control → Embedded Intelligence → Secure Monitoring
+Devices and Sensors
+        ↓
+Embedded Systems
+        ↓
+IoT Communication and Computer Networks
+        ↓
+Real-Time Data Infrastructure
+        ↓
+Monitoring, Reliability, Security, and Applied AI
 ```
 
-I try to build projects that include more than source code: simulations, hardware tests, sensor data, plots, animations, model evaluation, engineering limitations, and reproducible results.
+I try to support project claims with working code, hardware tests, logs, datasets, plots, metrics, or reproducible experiments. Limitations and unfinished parts are documented rather than hidden.
 
 ---
 
 ## Featured Projects
 
-| Project | Area | What it demonstrates |
-|---|---|---|
-| [IoT Digital Twin ML Pipeline](https://github.com/amirhossein-sadeghi2003/IoT-DigitalTwin-ML-Pipeline) | IoT, embedded sensing, ML | ESP32 sensor telemetry, Node-RED dashboard, MQTT pipeline, ML-based monitoring, digital-twin style system integration |
-| [Secure IoT Sensor Anomaly Detection](https://github.com/amirhossein-sadeghi2003/secure-iot-sensor-anomaly-detection) | IoT security, anomaly detection | Real IoT telemetry data, simulated spoofing attacks, rule-based detection, ML detection, temporal features, metrics, visual results |
-| [Ball and Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control) | Embedded control | ESP32, HC-SR04 distance sensing, MG946R servo actuation, open-loop tests, P-control Prototype V1, hardware debugging, demo video |
-| [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation) | Embedded estimation | ESP32 + MPU6050 roll/pitch estimation, complementary filter, OLED display, LED feedback, attitude animation |
-| [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation) | State estimation | 2D trajectory estimation with noisy GPS-like measurements, IMU-like acceleration, dropout handling, tracking animation |
-| [Adaptive Mobile Navigation Fusion](https://github.com/amirhossein-sadeghi2003/adaptive-mobile-navigation-fusion) | State estimation, navigation | Real phone-collected GPS/IMU walks, 2D Kalman baseline, GPS dropout and jump handling with innovation gating, IMU-heading dead reckoning that holds heading through GPS outages |
-| [TinyML Embedded Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | Embedded AI | ESP32-based monitoring, real sensor data, TinyML-style inference, OLED/NeoPixel/buzzer feedback, live monitor dashboard |
+| Project                                                                                                               | What I worked on                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [IoT Digital Twin ML Pipeline](https://github.com/amirhossein-sadeghi2003/IoT-DigitalTwin-ML-Pipeline)                | ESP32 telemetry, MQTT communication, Node-RED monitoring, and ML-based sensor analysis                         |
+| [Network Lab Final Project](https://github.com/amirhossein-sadeghi2003/network-lab-final-project)                     | VLANs, routing protocols, redistribution, ACLs, NAT, DHCP, HSRP, and network verification in Packet Tracer     |
+| [Secure IoT Sensor Anomaly Detection](https://github.com/amirhossein-sadeghi2003/secure-iot-sensor-anomaly-detection) | Rule-based and ML detection of abnormal IoT telemetry, including temporal features for replay-attack detection |
+| [TinyML Embedded Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor)       | ESP32 sensor monitoring, real data collection, embedded inference, and local visual and audible alerts         |
+| [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation)       | MPU6050 calibration, ESP32 firmware, complementary filtering, logging, OLED output, and hardware testing       |
+| [Adaptive Mobile Navigation Fusion](https://github.com/amirhossein-sadeghi2003/adaptive-mobile-navigation-fusion)     | Real phone GPS/IMU data, dropout and jump experiments, innovation gating, and dead reckoning                   |
 
 ---
 
-## Supporting Projects
+## Current Study
 
-### Dynamics, Control, and Estimation Foundations
+I am currently studying real-time and time-series databases for IoT workloads.
 
-- [DC Motor Simulation](https://github.com/amirhossein-sadeghi2003/dc-motor-simulation)
-- [Mass-Spring-Damper Simulation](https://github.com/amirhossein-sadeghi2003/mass-spring-damper-simulation)
-- [Kalman Filter DC Motor](https://github.com/amirhossein-sadeghi2003/kalman-filter-dc-motor)
-- [Dynamic System Classification](https://github.com/amirhossein-sadeghi2003/dynamic-system-classification)
-- [Ball and Beam Control Simulation](https://github.com/amirhossein-sadeghi2003/ball-and-beam-control-simulation)
+The questions I am exploring include:
 
-### Applied Machine Learning for Physical Systems
+* telemetry ingestion under continuous and burst traffic;
+* query latency for recent and historical sensor data;
+* retention, aggregation, and downsampling strategies;
+* resource usage on edge and server systems;
+* handling delayed, duplicated, or temporarily disconnected devices;
+* integration with dashboards, alerts, and monitoring pipelines.
 
-- [Time-Series Motor Fault Detection](https://github.com/amirhossein-sadeghi2003/time-series-motor-fault-detection)
-- [Industrial Surface Defect Classification](https://github.com/amirhossein-sadeghi2003/industrial-surface-defect-classification)
-- [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer)
-- [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning)
-- [Physics-Guided Battery Health Estimation](https://github.com/amirhossein-sadeghi2003/physics-guided-battery-health-estimation)
-
-### IoT and System Integration
-
-- [IoT Digital Twin ML Pipeline](https://github.com/amirhossein-sadeghi2003/IoT-DigitalTwin-ML-Pipeline)
-
-### Security for IoT and Cyber-Physical Systems
-
-- [Secure IoT Sensor Anomaly Detection](https://github.com/amirhossein-sadeghi2003/secure-iot-sensor-anomaly-detection)
-
-### Additional CS / ML Coursework
-
-- [Graph Mining Node Classification](https://github.com/amirhossein-sadeghi2003/graph-mining-node-classification)
+This work is currently in the research and experiment-design stage. I plan to publish technical artifacts only after there is an original comparison, reproducible benchmark, tested prototype, or useful result.
 
 ---
 
-## Project Map
+## Selected Supporting Work
 
-```text
-Sensing and Embedded Estimation
-├── Embedded IMU Attitude Estimation
-├── TinyML Embedded Condition Monitor
-└── IoT Digital Twin ML Pipeline
+### Monitoring and Applied Machine Learning
 
-Planning and Decision-Making
-└── Robot Path Planning Visualizer
+* [Time-Series Motor Fault Detection](https://github.com/amirhossein-sadeghi2003/time-series-motor-fault-detection)
+* [Physics-Guided Battery Health Estimation](https://github.com/amirhossein-sadeghi2003/physics-guided-battery-health-estimation)
+* [Industrial Surface Defect Classification](https://github.com/amirhossein-sadeghi2003/industrial-surface-defect-classification)
 
-Dynamics, Control, and Optimization
-├── Ball and Beam Hardware Control
-├── Evolutionary Control Tuning
-├── DC Motor Simulation
-└── Mass-Spring-Damper Simulation
+### Estimation and Physical Systems
 
-State Estimation and Filtering
-├── Sensor Fusion State Estimation
-├── Adaptive Mobile Navigation Fusion
-└── Kalman Filter DC Motor
+* [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation)
+* [Ball and Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control)
+* [Kalman Filter DC Motor](https://github.com/amirhossein-sadeghi2003/kalman-filter-dc-motor)
 
-Applied ML for Physical Systems
-├── Time-Series Motor Fault Detection
-├── Industrial Surface Defect Classification
-└── Dynamic System Classification
+### Algorithms and Optimization
 
-Security for IoT and Cyber-Physical Systems
-└── Secure IoT Sensor Anomaly Detection
-```
+* [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer)
+* [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning)
 
 ---
 
 ## Technical Areas
 
-- Python, C/C++, Arduino, ESP32
-- NumPy, pandas, matplotlib
-- scikit-learn, PyTorch
-- embedded sensing and hardware bring-up
-- Kalman filtering and sensor fusion
-- dynamic-system simulation and response analysis
-- path planning and search algorithms
-- feedback control and optimization
-- signal processing and feature extraction
-- IoT communication and MQTT
-- IoT security and anomaly detection
-- computer vision for visual inspection
-
----
-
-## Current Focus
-
-I am currently strengthening my portfolio toward graduate studies in:
-
-- robotics and autonomous systems
-- control systems
-- cyber-physical systems
-- embedded intelligence
-- sensing and state estimation
-- applied machine learning for physical systems
-- secure IoT and cyber-physical systems
+* embedded firmware and sensor integration;
+* ESP32, Arduino, I2C, UART, GPIO, and hardware bring-up;
+* MQTT telemetry and IoT data pipelines;
+* routing, switching, VLANs, ACLs, NAT, DHCP, and redundancy;
+* research and benchmarking of real-time and time-series databases for IoT;
+* dashboards, monitoring, anomaly detection, and reliability;
+* applied AI/ML for sensor analysis, fault detection, condition monitoring, and TinyML;
+* Python, C/C++, pandas, scikit-learn, PyTorch, and Node-RED;
+* filtering, sensor fusion, signal processing, and data visualization.
 
 ---
 
 <div align="center">
 
-**Engineering software for systems that sense, estimate, plan, and act.**
+**From sensor data to networked monitoring and applied intelligence.**
 
 </div>
+
