@@ -8,7 +8,7 @@
 
 # Amirhossein Sadeghi
 
-### Embedded Systems · IoT · Sensor Fusion & Control · Computer Networks · Applied AI
+### Embedded Systems & IoT (Primary) · Control & Estimation · Computer Networks · Applied AI
 
 Computer Engineering student building embedded and connected systems, with supporting work in estimation, control, networking, and machine learning.
 
@@ -36,7 +36,7 @@ Computer Engineering student building embedded and connected systems, with suppo
 
 I am a Computer Engineering student at Isfahan University of Technology.
 
-My primary focus is embedded systems and IoT. I work on projects that connect microcontrollers, sensors, communication modules, user interfaces, and monitoring software into testable end-to-end systems.
+My **primary focus is embedded systems and IoT**. I work on projects that connect microcontrollers, sensors, communication modules, user interfaces, and monitoring software into testable end-to-end systems.
 
 My broader portfolio includes computer networks, applied machine learning, sensor fusion, estimation, and control. These areas complement my embedded work and let me explore intelligent physical systems from hardware and communication to data analysis and decision-making.
 
@@ -53,6 +53,15 @@ I try to support project claims with working code, hardware tests, logs, dataset
     Communication and Connected Infrastructure
             ↓
     Monitoring, Estimation, Control, and Applied Intelligence
+
+### Focused Track Entry Points
+
+| Track | Start here |
+| --- | --- |
+| **Embedded Systems & IoT — primary** | Featured projects below |
+| **Control, Estimation & Autonomous Systems** | [Focused portfolio](CONTROL_ESTIMATION_PORTFOLIO.md) |
+| **Computer Networks & Networked Systems** | [Focused portfolio](NETWORKING_PORTFOLIO.md) |
+| **Applied AI & Machine Learning** | [Selected AI/ML work](#applied-ai-and-machine-learning) |
 
 ---
 
@@ -80,14 +89,19 @@ I try to support project claims with working code, hardware tests, logs, dataset
 
 ### Estimation, Control, and Autonomous Systems
 
+* **[Focused Control & Estimation portfolio](CONTROL_ESTIMATION_PORTFOLIO.md)**
 * [Adaptive Mobile Navigation Fusion](https://github.com/amirhossein-sadeghi2003/adaptive-mobile-navigation-fusion)
+* [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation)
+* [Ball-and-Beam Hardware Control](https://github.com/amirhossein-sadeghi2003/ball-and-beam-hardware-control)
 * [Sensor Fusion State Estimation](https://github.com/amirhossein-sadeghi2003/sensor-fusion-state-estimation)
-* [Robot Path Planning Visualizer](https://github.com/amirhossein-sadeghi2003/robot-path-planning-visualizer)
 * [Evolutionary Control Tuning](https://github.com/amirhossein-sadeghi2003/evolutionary-control-tuning)
 
 ### Networks and Connected Systems
 
+* **[Focused Networking portfolio](NETWORKING_PORTFOLIO.md)**
+* [Network Lab Final Project](https://github.com/amirhossein-sadeghi2003/network-lab-final-project)
 * [IoT Facility Network Monitoring](https://github.com/amirhossein-sadeghi2003/iot-facility-network-monitoring)
+* [Networking & SDN Coursework Index](https://github.com/amirhossein-sadeghi2003/undergraduate-coursework-archive/blob/main/NETWORKING_AND_SDN.md)
 
 ### Academic Coursework
 
@@ -100,15 +114,15 @@ I try to support project claims with working code, hardware tests, logs, dataset
 * STM32 and ESP32 firmware, sensor integration, and hardware bring-up;
 * UART, SPI, I2C, GPIO, keypad input, TFT/OLED interfaces, and embedded HMI development;
 * cellular/GSM communication, MQTT telemetry, Node-RED dashboards, and IoT data pipelines;
-* routing, switching, VLANs, ACLs, NAT, DHCP, redundancy, and network verification;
+* routing, switching, VLANs, ACLs, NAT, DHCP, redundancy, SDN, and network verification;
 * applied AI/ML for anomaly detection, fault classification, condition monitoring, and embedded inference;
 * filtering, sensor fusion, state estimation, control, path planning, and signal analysis;
-* Python, C, C++, SQL, Verilog, Linux/Bash, Git/GitHub, pandas, scikit-learn, and PyTorch.
+* Python, C, C++, SQL, Verilog, Linux/Bash, Git/GitHub, pandas, scikit-learn, PyTorch, and TensorFlow/Keras.
 
 ---
 
 <div align="center">
 
-**From embedded devices and connected systems to estimation, control, and applied intelligence.**
+**Primary focus: embedded and connected systems — extended with networking, estimation, control, and applied intelligence.**
 
 </div>
