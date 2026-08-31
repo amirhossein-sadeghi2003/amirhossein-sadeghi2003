@@ -8,9 +8,9 @@
 
 # Amirhossein Sadeghi
 
-### Embedded Systems & IoT (Primary) · Control & Estimation · Computer Networks · Applied AI
+### Embedded Systems · IoT · Computer Networks · Real-Time Monitoring
 
-Computer Engineering student building embedded and connected systems, with supporting work in estimation, control, networking, and machine learning.
+Computer Engineering student working on networked devices, sensor data, telemetry pipelines, reliable monitoring, and applied machine learning.
 
 </div>
 
@@ -36,9 +36,9 @@ Computer Engineering student building embedded and connected systems, with suppo
 
 I am a Computer Engineering student at Isfahan University of Technology.
 
-My **primary focus is embedded systems and IoT**. I work on projects that connect microcontrollers, sensors, communication modules, user interfaces, and monitoring software into testable end-to-end systems.
+My **primary focus is networked embedded and IoT systems**. I work on projects that connect microcontrollers, sensors, communication modules, computer networks, user interfaces, and monitoring software into testable end-to-end systems.
 
-My broader portfolio includes computer networks, applied machine learning, sensor fusion, estimation, and control. These areas complement my embedded work and let me explore intelligent physical systems from hardware and communication to data analysis and decision-making.
+I use applied machine learning, sensor fusion, estimation, and control as supporting areas where they add practical value to sensing, monitoring, reliability, and decision-making.
 
 I try to support project claims with working code, hardware tests, logs, datasets, plots, metrics, or reproducible experiments. Limitations and unfinished parts are documented rather than hidden.
 
@@ -69,7 +69,7 @@ I try to support project claims with working code, hardware tests, logs, dataset
 
 | Project | What I worked on |
 | --- | --- |
-| [Cellular DTMF Control](https://github.com/amirhossein-sadeghi2003/cellular-dtmf-control) | STM32F407 and SIM800C cellular control, incoming-call and DTMF handling over UART, desktop HMI simulation, and TFT/keypad hardware bring-up |
+| [Cellular DTMF Control](https://github.com/amirhossein-sadeghi2003/cellular-dtmf-control) | STM32F407 and SIM800C cellular communication, hardware-validated call/DTMF work, embedded HMI development, and modem/network diagnostics |
 | [IoT Digital Twin ML Pipeline](https://github.com/amirhossein-sadeghi2003/IoT-DigitalTwin-ML-Pipeline) | ESP32 telemetry, MQTT communication, Node-RED monitoring, and ML-based sensor analysis |
 | [TinyML Embedded Condition Monitor](https://github.com/amirhossein-sadeghi2003/tinyml-flight-condition-monitor) | ESP32 sensor monitoring, real data collection, embedded inference, and local visual and audible alerts |
 | [Embedded IMU Attitude Estimation](https://github.com/amirhossein-sadeghi2003/embedded-imu-attitude-estimation) | MPU6050 calibration, ESP32 firmware, complementary filtering, high-rate logging, OLED output, and hardware testing |
@@ -117,12 +117,12 @@ I try to support project claims with working code, hardware tests, logs, dataset
 * routing, switching, VLANs, ACLs, NAT, DHCP, redundancy, SDN, and network verification;
 * applied AI/ML for anomaly detection, fault classification, condition monitoring, and embedded inference;
 * filtering, sensor fusion, state estimation, control, path planning, and signal analysis;
-* Python, C, C++, SQL, Verilog, Linux/Bash, Git/GitHub, pandas, scikit-learn, PyTorch, and TensorFlow/Keras.
+* Python, C, C++, SQL, Verilog, Linux/Bash, Git/GitHub, pandas, scikit-learn, and PyTorch.
 
 ---
 
 <div align="center">
 
-**Primary focus: embedded and connected systems — extended with networking, estimation, control, and applied intelligence.**
+**Primary focus: networked embedded and IoT systems — extended with estimation, control, and applied intelligence.**
 
 </div>
