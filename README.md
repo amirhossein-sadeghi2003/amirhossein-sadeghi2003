@@ -17,7 +17,7 @@ Computer Engineering student working on networked devices, sensor data, telemetr
 <p align="center">
   <img src="https://img.shields.io/badge/Embedded-Systems-2E8B57?style=for-the-badge" />
   <img src="https://img.shields.io/badge/IoT%20%26-MQTT-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Sensor%20Fusion%20%26-Control-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Monitoring%20%26-Reliability-FF6F00?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Computer-Networks-6A5ACD?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Applied-AI%2FML-8E44AD?style=for-the-badge" />
 </p>
